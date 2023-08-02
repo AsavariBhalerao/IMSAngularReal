@@ -1,0 +1,28 @@
+<!-- <p>add works!</p>
+"id": 857,
+        "coursename": "Engineering",
+        "courseduration": "2011-14",
+        "coursefees": 45000.
+  -->
+
+
+<form #frm="ngForm" (ngSubmit)="getData(frm.value)">
+    <div>
+        <label>Enter Course Id</label>
+        <input type="number" name="id" class="form-control" placeholder="Enter Course Id" ngModel>
+    </div>
+    <div>
+        <label>Enter Course Name</label>
+        <input type="text" name="coursename" class="form-control" placeholder="Enter Course Name " ngModel>
+    </div>
+    
+    <div>
+    <label>Enter Course Duration</label>
+    <input type="text" name="courseduration" class="form-control" placeholder="Enter Course Duration" ngModel>
+</div>
+<div>
+    <label>Enter Course Fees</label>
+    <input type="number" name="coursefees" class="form-control" placeholder="Enter Course Fees " ngModel>
+</div>
+<button type="submit" class="btn btn-primary mt-2" [disabled]="frm.invalid">submit</button>
+</form>

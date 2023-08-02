@@ -1,0 +1,12 @@
+<div class="myLoginBox">
+
+    <form >
+        <label >Enter User Id</label>
+        <input type="text" name="userId" placeholder="enter user id" class="form-control" [(ngModel)]="userid" >
+        <label >Enter User password</label>
+        <input type="text" name="userpass" placeholder="enter user password" class="form-control" [(ngModel)]="userpass">
+
+        <button type="button" class="btn btn-primary mt-2" (click)="getData()">Login</button>
+       
+    </form>
+</div>

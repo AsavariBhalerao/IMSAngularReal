@@ -1,0 +1,39 @@
+
+
+<form #frm="ngForm" (ngSubmit)="editData(frm.value)">
+    <div>
+        <label>Enter  Id</label>
+        <input type="text" name="id" class="form-control" placeholder="Enter  Id" [ngModel]="empObj?.id">
+    </div>
+    <div>
+        <label>Enter Full Name</label>
+        <input type="text" name="fullname" class="form-control" placeholder="Enter Full Name " [ngModel]="empObj?.fullname">
+    </div>
+<!--     
+    <div>
+    <label>Enter Contact</label>
+    <input type="text" name="contact" class="form-control" placeholder="Enter Contact" [ngModel]="empObj?.contact">
+</div> -->
+<div>
+    <label>Enter Email</label>
+    <input type="text" name="email" class="form-control" placeholder="Enter Email " [ngModel]="empObj?.email">
+</div>
+<div>
+    <label>Enter Qualification</label>
+    <input type="text" name="qualification" class="form-control" placeholder="Enter Qualification " [ngModel]="empObj?.qualification">
+</div>
+<div>
+    <label>Enter passout</label>
+    <input type="text" name="passout" class="form-control" placeholder="Enter passout " [ngModel]="empObj?.passout">
+</div>
+<div>
+    <label>Enter college</label>
+    <input type="text" name="college" class="form-control" placeholder="Enter college " [ngModel]="empObj?.college">
+</div>
+<div>
+    <label>Enter specialization</label>
+    <input type="text" name="specialization" class="form-control" placeholder="Enter specialization " [ngModel]="empObj?.specialization">
+</div><button type="submit" class="btn btn-primary mt-2" [disabled]="frm.invalid">submit</button>
+</form>
+
+<!-- [disabled]="frm.invalid" -->

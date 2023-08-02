@@ -1,0 +1,8 @@
+.myLoginBox{
+    border: 2px solid blue;
+    width: 325px;
+    margin: auto;
+    padding: 16px 17px;
+    text-align: center;
+    border-radius: 25px;
+}

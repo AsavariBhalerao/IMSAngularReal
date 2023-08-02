@@ -1,0 +1,4 @@
+/* 
+* by default we are in developing mode.
+* ng build -prod or
+ ng build //creates */

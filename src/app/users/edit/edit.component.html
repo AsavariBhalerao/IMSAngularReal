@@ -1,0 +1,25 @@
+<p>add works!</p>
+
+<form #frm="ngForm" (ngSubmit)="editData(frm.value)">
+    <div>
+        <label>Enter Employee id</label>
+        <input type="text" name="empid" class="form-control" placeholder="Enter EmpId " [ngModel]="empObj?.empid" required>
+    </div>
+    <div>
+    <label>Enter Employee Name</label>
+    <input type="text" name="name" class="form-control" placeholder="Enter Student Name" [ngModel]="empObj?.name" required>
+</div>
+<div>
+    <label>Enter Employee Password</label>
+    <input type="password" name="password" class="form-control" placeholder="Enter Employee Password " [ngModel]="empObj?.password" required>
+</div>
+<div>
+    <label>Enter Employee Contact</label>
+    <input type="number" name="contact" class="form-control" placeholder="Enter Employee contact " [ngModel]="empObj?.contact" required>
+</div>
+<div>
+    <label>Enter Employee Email</label>
+    <input type="text" name="email" class="form-control" placeholder="Enter Employee email " [ngModel]="empObj?.email" required>
+</div>
+<button type="submit" class="btn btn-primary mt-2" [disabled]="frm.invalid">submit</button>
+</form>

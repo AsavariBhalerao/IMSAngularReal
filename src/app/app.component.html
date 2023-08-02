@@ -1,0 +1,17 @@
+
+<div class="container">
+  <div class="card border-primary mt-3" >
+      <div *ngIf="_router.url!='/' && _router.url!='/login' && _router.url!=='**'"  class="card-header border-primary" style="background-color: lightslategray;">
+      <app-nav></app-nav>
+      </div>
+  
+  
+      <div class="card-body border-primary" style="background-color: lightgrey;" >
+       
+    <router-outlet></router-outlet>
+      </div>
+      <div class="card-footer border-primary">
+
+      </div>
+  </div>
+  </div>

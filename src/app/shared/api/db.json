@@ -1,0 +1,275 @@
+{
+  "Students": [
+    {
+      "id": 101,
+      "name": "sangita",
+      "class": 12,
+      "roll-no": 56,
+      "address": "Chennai",
+      "Year-of-Admission": 2012,
+      "DOB": "12-08-1998"
+    },
+    {
+      "id": 102,
+      "name": "sita",
+      "class": 13,
+      "roll-no": 57,
+      "address": "Bengaluru",
+      "Year-of-Admission": 2012,
+      "DOB": "11-05-1997"
+    },
+    {
+      "id": 103,
+      "name": "sangita",
+      "class": 12,
+      "roll-no": 69,
+      "address": "Pune",
+      "Year-of-Admission": 2012,
+      "DOB": "12-06-1997"
+    },
+    {
+      "id": 104,
+      "name": "Ashika",
+      "class": 12,
+      "roll-no": 98,
+      "address": "Pune",
+      "Year-of-Admission": 2012,
+      "DOB": "15-08-1996"
+    },
+    {
+      "id": 105,
+      "name": "Mira",
+      "class": 12,
+      "roll-no": 89,
+      "address": "Chandpur",
+      "Year-of-Admission": 2012,
+      "DOB": "1-03-1996"
+    }
+  ],
+  "Users": [
+    {
+      "id": 102,
+      "empid": "403",
+      "name": "depa",
+      "password": 456,
+      "contact": 9422703670,
+      "email": "afg@gmail.com"
+    },
+    {
+      "id": 103,
+      "empid": "405",
+      "name": "pooooo",
+      "password": 856,
+      "contact": 9658741233,
+      "email": "gfc@gmail.com"
+    },
+    {
+      "id": 104,
+      "empid": "404",
+      "name": "hruta",
+      "password": 842,
+      "contact": 9685749625,
+      "email": "sgc@gmail.com"
+    },
+    {
+      "id": 105,
+      "empid": "402",
+      "name": "Jiya",
+      "password": "523hjj",
+      "contact": 2568978524,
+      "email": "afs@gmail.com"
+    },
+    {
+      "id": 106,
+      "empid": "401",
+      "name": "Ishika",
+      "password": "585223",
+      "contact": 8522695985,
+      "email": "abc@homail.com"
+    },
+    {
+      "empid": "107",
+      "name": "Ritika Dangre",
+      "password": "8522558",
+      "contact": 8547123,
+      "email": "ritu@123",
+      "id": 107
+    }
+  ],
+  "Institute": [
+    {
+      "id": 111,
+      "branchname": "Computer",
+      "city": "Goa",
+      "contact": 96852
+    },
+    {
+      "id": 695,
+      "branchname": "Designing-Developing",
+      "city": "Mumbai",
+      "contact": 65799
+    },
+    {
+      "id": 956,
+      "branchname": "Civil",
+      "city": "Hridwar",
+      "contact": 82599
+    },
+    {
+      "id": 252,
+      "branchname": "Mechanical",
+      "city": "Goa",
+      "contact": 85799
+    },
+    {
+      "id": 966,
+      "branchname": "Science",
+      "city": "Pune",
+      "contact": 995569
+    },
+    {
+      "id": 693,
+      "branchname": "Designing",
+      "city": "Kota",
+      "contact": 9663328545
+    },
+    {
+      "id": 451,
+      "branchname": "IT",
+      "city": "Goa",
+      "contact": 8522695985
+    },
+    {
+      "id": 685,
+      "branchname": "ME",
+      "city": "Vaijapur",
+      "contact": 5741477
+    }
+  ],
+  "Courses": [
+    {
+      "id": 857,
+      "coursename": "computer",
+      "courseduration": "2011-14",
+      "coursefees": 46000
+    },
+    {
+      "id": 859,
+      "coursename": "Designing",
+      "courseduration": "2011-14",
+      "coursefees": 85000
+    },
+    {
+      "id": 854,
+      "coursename": "design",
+      "courseduration": "2010-13",
+      "coursefees": 855522
+    },
+    {
+      "id": 758,
+      "coursename": "Arts and Music",
+      "courseduration": "2011-13",
+      "coursefees": 15000
+    },
+    {
+      "id": 145,
+      "coursename": "Designing and Engineering",
+      "courseduration": "2013-2016",
+      "coursefees": 85555
+    },
+    {
+      "id": 169,
+      "coursename": "mechatronics",
+      "courseduration": "2013-2016",
+      "coursefees": 85220
+    },
+    {
+      "id": 691,
+      "coursename": "Ashu",
+      "courseduration": "2015-2018",
+      "coursefees": 25800
+    },
+    {
+      "id": 860,
+      "coursename": "",
+      "courseduration": "",
+      "coursefees": ""
+    }
+  ],
+  "Enrollment": [
+    {
+      "id": 101,
+      "fullname": "Ayush Paleja",
+      "email": "Ayp@gmail",
+      "qualification": "Graduation",
+      "passout": 2013,
+      "college": "Adsul College",
+      "specialization": "Science"
+    },
+    {
+      "id": "109",
+      "fullname": "Meera p Kulkarni",
+      "email": "mkl@mail",
+      "qualification": "graduation",
+      "passout": "2021",
+      "college": "MIT college",
+      "specialization": "Computer"
+    },
+    {
+      "id": "852",
+      "fullname": "kishori Joshi",
+      "email": "kij@mail",
+      "qualification": "graduation",
+      "passout": "2021",
+      "college": "Raisoni college of engineering",
+      "specialization": "Electronics"
+    },
+    {
+      "id": "658",
+      "fullname": "Pari Mande",
+      "email": "pam@mail",
+      "qualification": "BCS",
+      "passout": "2016",
+      "college": "R R College Of Ranchi",
+      "specialization": "Selenium"
+    },
+    {
+      "id": "859",
+      "fullname": "Prakashi Patil",
+      "email": "pkc@gmail",
+      "qualification": "graduation",
+      "passout": "2022",
+      "specialization": "C#"
+    },
+    {
+      "id": "963",
+      "fullname": "Mikashi",
+      "email": "mks@gmail",
+      "qualification": "BE",
+      "passout": "2022",
+      "specialization": "Mechatronics"
+    }
+  ],
+  "asavari": [
+    {
+      "id": 101,
+      "uid": "kishor",
+      "password": "kishor123"
+    },
+    {
+      "id": 102,
+      "uid": "rob",
+      "password": "rob123"
+    },
+    {
+      "id": 103,
+      "uid": "vam",
+      "password": "vam123"
+    },
+    {
+      "id": 104,
+      "uid": "dam",
+      "password": "dam123"
+    }
+  ]
+}

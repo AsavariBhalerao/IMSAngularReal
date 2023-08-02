@@ -1,0 +1,21 @@
+<p>add works!</p>
+<form #frm="ngForm" (ngSubmit)="getData(frm.value)">
+    <div>
+        <label>Enter Course Id</label>
+        <input type="number" name="id" class="form-control" placeholder="Enter Course Id" ngModel>
+    </div>
+    <div>
+        <label>Enter Branch Name</label>
+        <input type="text" name="branchname" class="form-control" placeholder="Enter Branch Name " ngModel>
+    </div>
+    
+    <div>
+    <label>Enter City of Student</label>
+    <input type="text" name="city" class="form-control" placeholder="Enter  student city" ngModel>
+</div>
+<div>
+    <label>Enter  contact</label>
+    <input type="number" name="contact" class="form-control" placeholder="Enter Student Contact " ngModel>
+</div>
+<button type="submit" class="btn btn-primary mt-2" [disabled]="frm.invalid">submit</button>
+</form>
